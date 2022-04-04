@@ -1,0 +1,45 @@
+/*Style body*/
+body {
+    background-color: #000000;
+}
+
+/*Style footer*/
+#myfooter {
+    background-color: #000000;
+}
+
+p.title-footer {
+    color: #fff;
+}
+
+/*Style main-title*/
+.main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*Style paragraph about me*/
+p.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+/*Style my projects*/
+p.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.title-project {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Remove text decoration deploy my projects*/
+.message a:not(.button):not(.tag):not(.dropdown-item) {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.568);
+}
